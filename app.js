@@ -12,6 +12,7 @@ function toggleContent() {
         if (panel !== content && content.classList.contains('active')) {
             content.classList.remove('active');
             btns.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
         }
     })
 }
