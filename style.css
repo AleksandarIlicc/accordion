@@ -20,6 +20,7 @@ html {
 
 .accordion {
   width: 50rem;
+  max-width: 90%;
   overflow: hidden;
   border-radius: 1rem;
 }
